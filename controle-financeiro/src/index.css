@@ -1,3 +1,10 @@
+:root {
+  --verde-escuro: #00ae96;
+  --branco: #FFFFFF;
+  --verde-claro: #67fbe0;
+  --verde-medio: #34d5bb;
+}
+
 * {
   margin: 0;
   padding: 0;

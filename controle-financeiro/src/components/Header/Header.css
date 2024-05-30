@@ -1,0 +1,62 @@
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    color: #000000;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(175, 175, 175);
+}
+
+.logo span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.botao-criar-conta {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 20px;
+    background-color: var(--verde-escuro);
+    padding: 10px 22px;
+    border-radius: 32px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.botao-criar-conta:hover {
+    background-color: var(--verde-medio);
+}
+
+.botao-entrar {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+    background-color: var(--branco);
+    padding: 10px 26px;
+    border-radius: 32px;
+    font-weight: 600;
+    transition: 0.25s;
+    border: 2px solid rgb(175, 175, 175);
+}
+
+.botao-entrar:hover {
+    background-color: var(--verde-escuro);
+    border: 2px solid var(--verde-escuro);
+    color: var(--branco);
+}

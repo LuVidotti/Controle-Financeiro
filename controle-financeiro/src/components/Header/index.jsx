@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return(
         <header className="cabecalho">
-            <div className="logo">
+            <div onClick={() => window.location.reload()} className="logo">
                 <FaCoins className="logo-icon"/>
                 <span>Controle financeiro</span>
             </div>

@@ -1,0 +1,18 @@
+.inicio {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.inicio h1 {
+    width: 50vw;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.ghost {
+    height: 200px;
+    width: 100vw;
+    background-color: var(--verde-escuro);
+    margin-top: -50px;
+}

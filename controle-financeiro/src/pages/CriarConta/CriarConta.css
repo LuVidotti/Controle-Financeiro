@@ -1,0 +1,87 @@
+.criar-conta {
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(0,174,150,1) 59%, rgba(103,251,224,1) 100%);
+    height: 100vh;
+}
+
+.criar-conta h1 {
+    color: var(--branco);
+    text-align: center;
+    padding-top: 2em;
+    font-size: 38px;
+}
+
+.criar-conta-container {
+    display: grid;
+    place-items: center;
+}
+
+.criar-conta-container form {
+    background-color: var(--branco);
+    margin-top: 3em;
+    padding: 22px;
+    border-radius: 16px;
+    width: 30vw;
+    box-shadow: 10px 10px 80px 20px #565656;
+}
+
+.criar-conta-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.criar-conta-container form input {
+    padding: 10px 0 10px 5px;
+    width: 100%;
+    background-color: var(--verde-escuro);
+    border: none;
+    border-radius: 20px;
+    color: var(--branco);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.criar-conta-container form input:focus {
+    outline: 2px solid var(--verde-claro)
+}
+
+.criar-conta-container form button {
+    width: 100%;
+    color: var(--verde-medio);
+    font-size: 20px;
+    background-color: var(--branco);
+    padding: 10px 26px;
+    border-radius: 32px;
+    font-weight: 600;
+    transition: 0.25s;
+    border: 2px solid var(--verde-medio);
+}
+
+.criar-conta-container form button:hover {
+    cursor: pointer;
+    background-color: var(--verde-medio);
+    border: 2px solid var(--verde-medio);
+    color: var(--branco);
+}
+
+.redirecionar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.redirecionar p {
+    color: #565656;
+}
+
+.redirecionar a {
+    text-decoration: none;
+    color: var(--verde-escuro);
+}
+
+.redirecionar a:hover {
+    text-decoration: underline;
+}
